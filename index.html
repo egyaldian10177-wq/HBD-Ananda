@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday ❤️</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#ff758c,#ff7eb3);
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+
+.card{
+background:#fff;
+width:100%;
+max-width:500px;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+text-align:center;
+animation:fade 1s;
+}
+
+img{
+width:200px;
+height:200px;
+object-fit:cover;
+border-radius:50%;
+border:5px solid #ff4d6d;
+margin-bottom:20px;
+}
+
+h1{
+color:#ff4d6d;
+margin-bottom:10px;
+}
+
+#pesan{
+margin-top:20px;
+text-align:justify;
+line-height:1.8;
+color:#555;
+}
+
+button{
+margin-top:20px;
+padding:12px 30px;
+border:none;
+background:#ff4d6d;
+color:white;
+font-size:17px;
+border-radius:30px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+background:#ff2f5a;
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="foto.jpg" alt="Foto">
+
+<h1>🎂 Happy Birthday ❤️</h1>
+
+<p id="pesan">
+Klik tombol di bawah ya ❤️
+</p>
+
+<button onclick="tampilPesan()">
+💌 Buka Pesan
+</button>
+
+</div>
+
+<script>
+
+function tampilPesan(){
+
+document.getElementById("pesan").innerHTML=`
+
+<h2 style="color:#ff4d6d;text-align:center;">
+🎂 Selamat Ulang Tahun, Sayang ❤️
+</h2>
+
+<br>
+
+Hari ini adalah hari yang sangat spesial, karena di hari inilah seseorang yang paling berarti dalam hidupku dilahirkan.
+
+<br><br>
+
+Selamat ulang tahun, sayang. 🤍
+
+<br><br>
+
+Semoga di usiamu yang baru, kamu selalu diberikan kesehatan, kebahagiaan, dan kekuatan dalam setiap langkahmu.
+
+Semoga semua doa yang selama ini kamu simpan diam-diam satu per satu menjadi kenyataan.
+
+<br><br>
+
+Terima kasih sudah hadir dalam hidupku.
+
+<br><br>
+
+Terima kasih sudah menjadi tempatku bercerita, tempatku pulang, dan seseorang yang selalu membuat hariku terasa lebih indah.
+
+<br><br>
+
+Maaf kalau selama ini aku masih sering membuatmu kecewa, membuatmu kesal, atau belum bisa menjadi yang terbaik.
+
+Tapi percayalah, aku akan terus belajar menjadi seseorang yang pantas untuk mendampingimu.
+
+<br><br>
+
+Aku berharap kita bisa terus menciptakan banyak kenangan baru, tertawa bersama, saling menguatkan, dan melewati semua suka maupun duka.
+
+<br><br>
+
+Semoga senyummu tidak pernah hilang, karena senyummu adalah salah satu hal favoritku di dunia ini.
+
+<br><br>
+
+Terima kasih sudah mencintaiku dan menerima segala kekuranganku.
+
+<br><br>
+
+Aku mungkin tidak bisa memberikan hadiah yang paling mewah, tetapi website sederhana ini kubuat dengan sepenuh hati sebagai tanda betapa berharganya dirimu bagiku.
+
+<br><br>
+
+<b>Selamat ulang tahun, cintaku.</b>
+
+<br><br>
+
+Semoga Tuhan selalu menjaga setiap langkahmu dan memberikan yang terbaik untukmu.
+
+<br><br>
+
+Aku akan selalu mendoakan kebahagiaanmu.
+
+<br><br>
+
+❤️ <b>I Love You Today, Tomorrow, and Forever.</b> ❤️
+
+<br><br>
+
+<b>— maaf telat ngirimnya aku pusing bikinnya gak jadi jadi😅.</b>
+
+`;
+
+}
+
+</script>
+
+</body>
+</html>
